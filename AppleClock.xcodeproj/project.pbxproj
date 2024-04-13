@@ -15,6 +15,7 @@
 		83A7751A2BCA774B006319EF /* AppleClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775192BCA774B006319EF /* AppleClockTests.swift */; };
 		83A775242BCA774B006319EF /* AppleClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775232BCA774B006319EF /* AppleClockUITests.swift */; };
 		83A775262BCA774B006319EF /* AppleClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775252BCA774B006319EF /* AppleClockUITestsLaunchTests.swift */; };
+		83A775342BCA8D26006319EF /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775332BCA8D26006319EF /* WorldClockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		83A7751F2BCA774B006319EF /* AppleClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A775232BCA774B006319EF /* AppleClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClockUITests.swift; sourceTree = "<group>"; };
 		83A775252BCA774B006319EF /* AppleClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83A775322BCA7D78006319EF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		83A775332BCA8D26006319EF /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		83A774F62BCA7749006319EF = {
 			isa = PBXGroup;
 			children = (
+				83A775322BCA7D78006319EF /* .gitignore */,
 				83A775012BCA7749006319EF /* AppleClock */,
 				83A775182BCA774B006319EF /* AppleClockTests */,
 				83A775222BCA774B006319EF /* AppleClockUITests */,
@@ -103,6 +107,7 @@
 				83A7750B2BCA774A006319EF /* Assets.xcassets */,
 				83A7750D2BCA774A006319EF /* LaunchScreen.storyboard */,
 				83A775102BCA774A006319EF /* Info.plist */,
+				83A775332BCA8D26006319EF /* WorldClockViewController.swift */,
 			);
 			path = AppleClock;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A775342BCA8D26006319EF /* WorldClockViewController.swift in Sources */,
 				83A775032BCA7749006319EF /* AppDelegate.swift in Sources */,
 				83A775052BCA7749006319EF /* SceneDelegate.swift in Sources */,
 			);
