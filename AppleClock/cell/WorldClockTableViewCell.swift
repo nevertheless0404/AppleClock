@@ -8,7 +8,16 @@
 import UIKit
 
 class WorldClockTableViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var timeoffsetLabel: UILabel!
+    
+    @IBOutlet weak var timeZoneLabel: UILabel!
+    
+    @IBOutlet weak var timePeriodLable: UILabel!
+    
+    @IBOutlet weak var timeLable: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

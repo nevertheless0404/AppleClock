@@ -16,6 +16,7 @@
 		83A775242BCA774B006319EF /* AppleClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775232BCA774B006319EF /* AppleClockUITests.swift */; };
 		83A775262BCA774B006319EF /* AppleClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775252BCA774B006319EF /* AppleClockUITestsLaunchTests.swift */; };
 		83A775342BCA8D26006319EF /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775332BCA8D26006319EF /* WorldClockViewController.swift */; };
+		83C1829E2BCBF3CC00B87152 /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1829D2BCBF3CC00B87152 /* WorldClockTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		83A775252BCA774B006319EF /* AppleClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		83A775322BCA7D78006319EF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		83A775332BCA8D26006319EF /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
+		83C1829D2BCBF3CC00B87152 /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		83A775012BCA7749006319EF /* AppleClock */ = {
 			isa = PBXGroup;
 			children = (
+				83C1829A2BCBF21B00B87152 /* cell */,
 				83A775022BCA7749006319EF /* AppDelegate.swift */,
 				83A775042BCA7749006319EF /* SceneDelegate.swift */,
 				83A775082BCA7749006319EF /* Main.storyboard */,
@@ -127,6 +130,14 @@
 				83A775252BCA774B006319EF /* AppleClockUITestsLaunchTests.swift */,
 			);
 			path = AppleClockUITests;
+			sourceTree = "<group>";
+		};
+		83C1829A2BCBF21B00B87152 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				83C1829D2BCBF3CC00B87152 /* WorldClockTableViewCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 				83A775342BCA8D26006319EF /* WorldClockViewController.swift in Sources */,
 				83A775032BCA7749006319EF /* AppDelegate.swift in Sources */,
 				83A775052BCA7749006319EF /* SceneDelegate.swift in Sources */,
+				83C1829E2BCBF3CC00B87152 /* WorldClockTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
