@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830A1A2E2BDE27E500931918 /* TimeZone+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A1A2D2BDE27E500931918 /* TimeZone+Util.swift */; };
+		830A1A2F2BDE403E00931918 /* TimeZone+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A1A2D2BDE27E500931918 /* TimeZone+Util.swift */; };
+		830A1A302BDE403F00931918 /* TimeZone+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A1A2D2BDE27E500931918 /* TimeZone+Util.swift */; };
+		830A1A312BDE413300931918 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775332BCA8D26006319EF /* WorldClockViewController.swift */; };
+		830A1A322BDE413400931918 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775332BCA8D26006319EF /* WorldClockViewController.swift */; };
 		83A775032BCA7749006319EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775022BCA7749006319EF /* AppDelegate.swift */; };
 		83A775052BCA7749006319EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775042BCA7749006319EF /* SceneDelegate.swift */; };
-		83A7750A2BCA7749006319EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A775082BCA7749006319EF /* Main.storyboard */; };
 		83A7750C2BCA774A006319EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A7750B2BCA774A006319EF /* Assets.xcassets */; };
-		83A7750F2BCA774A006319EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A7750D2BCA774A006319EF /* LaunchScreen.storyboard */; };
 		83A7751A2BCA774B006319EF /* AppleClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775192BCA774B006319EF /* AppleClockTests.swift */; };
 		83A775242BCA774B006319EF /* AppleClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775232BCA774B006319EF /* AppleClockUITests.swift */; };
 		83A775262BCA774B006319EF /* AppleClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775252BCA774B006319EF /* AppleClockUITestsLaunchTests.swift */; };
 		83A775342BCA8D26006319EF /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A775332BCA8D26006319EF /* WorldClockViewController.swift */; };
 		83C1829E2BCBF3CC00B87152 /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1829D2BCBF3CC00B87152 /* WorldClockTableViewCell.swift */; };
+		83EBFDA42BE8A40500E1C9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EBFDA32BE8A40500E1C9CF /* Main.storyboard */; };
+		83EBFDA62BE8A41400E1C9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EBFDA52BE8A41400E1C9CF /* LaunchScreen.storyboard */; };
+		83EBFDA72BE8A41400E1C9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EBFDA52BE8A41400E1C9CF /* LaunchScreen.storyboard */; };
+		83EBFDA82BE8A41400E1C9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EBFDA52BE8A41400E1C9CF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		830A1A2D2BDE27E500931918 /* TimeZone+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+Util.swift"; sourceTree = "<group>"; };
 		83A774FF2BCA7749006319EF /* AppleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A775022BCA7749006319EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A775042BCA7749006319EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83A775092BCA7749006319EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83A7750B2BCA774A006319EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83A7750E2BCA774A006319EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A775102BCA774A006319EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A775152BCA774B006319EF /* AppleClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A775192BCA774B006319EF /* AppleClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClockTests.swift; sourceTree = "<group>"; };
@@ -52,6 +58,8 @@
 		83A775322BCA7D78006319EF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		83A775332BCA8D26006319EF /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		83C1829D2BCBF3CC00B87152 /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
+		83EBFDA32BE8A40500E1C9CF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		83EBFDA52BE8A41400E1C9CF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +87,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830A1A2C2BDE27BB00931918 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				830A1A2D2BDE27E500931918 /* TimeZone+Util.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		83A774F62BCA7749006319EF = {
 			isa = PBXGroup;
 			children = (
+				830A1A2C2BDE27BB00931918 /* Extension */,
 				83A775322BCA7D78006319EF /* .gitignore */,
 				83A775012BCA7749006319EF /* AppleClock */,
 				83A775182BCA774B006319EF /* AppleClockTests */,
@@ -106,10 +123,10 @@
 				83C1829A2BCBF21B00B87152 /* cell */,
 				83A775022BCA7749006319EF /* AppDelegate.swift */,
 				83A775042BCA7749006319EF /* SceneDelegate.swift */,
-				83A775082BCA7749006319EF /* Main.storyboard */,
 				83A7750B2BCA774A006319EF /* Assets.xcassets */,
-				83A7750D2BCA774A006319EF /* LaunchScreen.storyboard */,
+				83EBFDA32BE8A40500E1C9CF /* Main.storyboard */,
 				83A775102BCA774A006319EF /* Info.plist */,
+				83EBFDA52BE8A41400E1C9CF /* LaunchScreen.storyboard */,
 				83A775332BCA8D26006319EF /* WorldClockViewController.swift */,
 			);
 			path = AppleClock;
@@ -244,9 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A7750F2BCA774A006319EF /* LaunchScreen.storyboard in Resources */,
+				83EBFDA62BE8A41400E1C9CF /* LaunchScreen.storyboard in Resources */,
 				83A7750C2BCA774A006319EF /* Assets.xcassets in Resources */,
-				83A7750A2BCA7749006319EF /* Main.storyboard in Resources */,
+				83EBFDA42BE8A40500E1C9CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EBFDA72BE8A41400E1C9CF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EBFDA82BE8A41400E1C9CF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830A1A2E2BDE27E500931918 /* TimeZone+Util.swift in Sources */,
 				83A775342BCA8D26006319EF /* WorldClockViewController.swift in Sources */,
 				83A775032BCA7749006319EF /* AppDelegate.swift in Sources */,
 				83A775052BCA7749006319EF /* SceneDelegate.swift in Sources */,
@@ -282,6 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830A1A312BDE413300931918 /* WorldClockViewController.swift in Sources */,
+				830A1A2F2BDE403E00931918 /* TimeZone+Util.swift in Sources */,
 				83A7751A2BCA774B006319EF /* AppleClockTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,8 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830A1A322BDE413400931918 /* WorldClockViewController.swift in Sources */,
 				83A775262BCA774B006319EF /* AppleClockUITestsLaunchTests.swift in Sources */,
 				83A775242BCA774B006319EF /* AppleClockUITests.swift in Sources */,
+				830A1A302BDE403F00931918 /* TimeZone+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +333,6 @@
 			targetProxy = 83A775202BCA774B006319EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		83A775082BCA7749006319EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83A775092BCA7749006319EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		83A7750D2BCA774A006319EF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83A7750E2BCA774A006319EF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		83A775272BCA774B006319EF /* Debug */ = {
